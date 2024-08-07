@@ -1,13 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 .main {
-  height: 260px;
+  height: 240px;
   width: 100%;
   background-image: linear-gradient(rgb(255, 217, 0),white,rgb(0, 255, 55));
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 50px;
 }
+.body{
+  border: 10px solid orange;
+  border-block-end-style: dotted ;
+  border-top-style: dotted;
+  border-left-style: dotted;
+  border-right-style: dotted;
+  border-radius: 10px;
+  border-bottom-color: green;
+  border-left-color: blue;
+  border-right-color: blue;
+  padding:50px;
+  padding-top: 0px;
+}
+.marquee{
+  padding: 20px;
+  height: 40px;
+  size: 50px;
+  background-image: linear-gradient(orange,white,green);
+  margin-top: 10px;
+  font-style: italic;
+  text-shadow: 10px grey;
+  box-shadow: 50px grey;
+  border:5px rgb(32, 22, 173);
+  border-radius: 25px;
+  color:blue;
+}
+
 h1 {
   font-weight: 500;
   color: rgb(252, 252, 252);
@@ -31,14 +58,15 @@ h3 {
 }
 
 .a {
-  height: 350px;
+  height: 380px;
   width: 250px;
   border: 1px solid rgb(162, 159, 159);
-  
+  background: radial-gradient(rgb(36, 231, 62),white,rgb(236, 160, 19));
   margin-top: 30px;
   margin-left: 40px;
   border-radius: 10px;
   padding:30px;
+  text-decoration: double;
   
 }
 .a:hover {
@@ -63,6 +91,12 @@ h3 {
 .e {
   margin-top: 0px;
   margin-left: 10px;
+  float: left;
+}
+.i{
+  margin-top: 20px;
+  margin-left: 25px;
+  padding-left: 0px;
   float: left;
 }
 .f {
