@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 .main {
-  height: 240px;
+  height: 230px;
   width: 100%;
   background-image: linear-gradient(rgb(255, 217, 0),white,rgb(0, 255, 55));
   background-repeat: no-repeat;
@@ -21,10 +21,26 @@
   padding:50px;
   padding-top: 0px;
 }
+.j{
+  float: right;
+  height:200px;
+  width:200px;
+  padding:20px;
+  
+  border-radius: 100px;
+}
+.k{
+  float:right;
+  height:200px;
+  width:200px;
+  padding:20px;
+  border-radius: 100px;
+
+}
 .marquee{
   padding: 20px;
   height: 40px;
-  size: 50px;
+  size: 40px;
   background-image: linear-gradient(orange,white,green);
   margin-top: 10px;
   font-style: italic;
@@ -65,7 +81,7 @@ h3 {
   margin-top: 30px;
   margin-left: 40px;
   border-radius: 10px;
-  padding:30px;
+  padding:40px;
   text-decoration: double;
   
 }
